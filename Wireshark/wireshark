@@ -1,0 +1,11 @@
+
+
+to start tcpdump:
+sudo tcpdump
+
+List out all interfaces/networks
+ sudo tcpdump -D
+
+to record packets in a file
+ sudo tcpdump -w capture_packets.pcap -i eno1
+
